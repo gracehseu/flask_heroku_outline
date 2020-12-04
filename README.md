@@ -1,0 +1,1 @@
+Minimal outline for Flask application to be deployed on Heroku based on the [How to Structure Large Flask Applications by Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
