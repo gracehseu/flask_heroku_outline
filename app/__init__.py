@@ -13,3 +13,6 @@ app.config.from_object('config')
 # register blueprints
 app.register_blueprint(module_ex_1_bp)
 app.register_blueprint(module_ex_2_bp)
+
+if __name__ == '__main__':
+    app.run()
