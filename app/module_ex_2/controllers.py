@@ -3,8 +3,7 @@ from datetime import date
 
 module_ex_2_bp = Blueprint('module_ex_2', __name__)
 
-@module_ex_2_bp("/module_ex_2_bp", methods=["GET", "POST"])
-@module_ex_2_bp("/", methods=["GET", "POST"])
+@module_ex_2_bp.route("/module_ex_2_bp", methods=["GET", "POST"])
 def main():
     # passes the date to the jinja2 template
     print('in module_ex_2_bp')
